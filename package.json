@@ -6,6 +6,9 @@
   "directories": {
     "doc": "doc"
   },
+  "bin": {
+    "ninja": "./ninja"
+  },
   "scripts": {
     "postinstall": "./configure.py --bootstrap"
   },
